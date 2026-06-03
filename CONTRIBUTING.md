@@ -25,7 +25,7 @@ All documentation lives in `docs/`. Pages are written in Markdown with VitePress
 
 ### Structure
 
-```
+```text
 docs/
 ├── intro/          # Getting started and architecture guides
 │   ├── core/       # Core concepts (modules, SDK, database, OData)
