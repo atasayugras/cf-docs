@@ -68,7 +68,12 @@ docs/
    ```sh
    bun run docs:build
    ```
-4. Commit and push your branch
+4. Commit with a sign-off and push your branch:
+   ```sh
+   git commit -s -m "docs: your message"
+   git push origin docs/your-topic
+   ```
+   > **Note:** The `-s` flag adds a `Signed-off-by` line to your commit message, required by the DCO check. Without it your PR will be blocked.
 5. Open a pull request against `main` with a clear description of what you added or changed
 
 ## License
