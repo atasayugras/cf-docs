@@ -11,6 +11,22 @@ Constructor Fabric gives teams a structured foundation for XaaS development - ha
 - **Built-in security** - authentication and authorization primitives out of the box
 - **gRPC + REST** - flexible transport options for every integration need
 
+## Toolchain
+
+Constructor Fabric is built on a curated set of open-source tools:
+
+- [Rust](https://www.rust-lang.org/) - secure and performant language foundation
+- [Cargo](https://doc.rust-lang.org/cargo/) - package manager for Rust
+- [Clippy](https://github.com/rust-lang/rust-clippy) - code quality checks for generic Rust code
+- [Dylint](https://github.com/trailofbits/dylint) - specialized lints for Gears-specific projects
+- [Nextest](https://nexte.st/) - next-generation testing framework
+- [Protobuf](https://protobuf.dev/) - efficient wire-communication between services
+- [Cargo generate](https://github.com/cargo-generate/cargo-generate) - project templating
+- [cargo-llvm-cov](https://github.com/taiki-e/cargo-llvm-cov) - code coverage
+- [aws-lc-rs](https://github.com/aws/aws-lc-rs) - FIPS compliance
+
+In order to ease and centralize the use of these tools, we provide a CLI tool called `gears` that streamlines all software development tasks related to Constructor Fabric.
+
 ## Core Concepts
 
 | Concept | Description |

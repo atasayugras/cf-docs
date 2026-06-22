@@ -1,23 +1,6 @@
-# Contributing to CyberFabric Documentation
+# Contributing to Constructor Fabric Documentation
 
-Thank you for helping improve the CyberFabric docs! This guide covers everything you need to get started.
-
-## Setup
-
-1. Fork this repository
-2. Clone your fork:
-   ```sh
-   git clone https://github.com/<your-username>/cf-docs.git
-   cd cf-docs
-   ```
-3. Install dependencies:
-   ```sh
-   bun install
-   ```
-4. Start the dev server:
-   ```sh
-   bun run docs:dev
-   ```
+Thank you for helping improve the Constructor Fabric docs! See the [README](./README.md) for setup and development commands.
 
 ## Writing Documentation
 
